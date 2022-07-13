@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import items from './data'
 
 const RoomContext = React.createContext()
@@ -103,8 +102,6 @@ class RoomProvider extends Component {
       sortedRooms: tempRooms
     })
   }
-
-
 
   render() {
     return (
